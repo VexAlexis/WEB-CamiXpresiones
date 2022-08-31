@@ -1,0 +1,250 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body{
+    background-color: #f5e1ce;    
+}
+.info{
+    width: 100%;
+    height: 50px;
+    padding: 6px 0px;
+    background-color: #35d8e1;
+    text-align:center;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+.info p{
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    line-height: 1;
+    color: #fff;
+    font-size: 18px;    
+    font-family: 'Merienda', cursive;
+    text-shadow: 0px 0px 2px #000;
+    display: block;    
+}
+
+
+header{
+    display: flex;
+    flex-wrap: wrap;
+    height: 80px;
+    width: 100%;
+    padding: 5px;
+    justify-content: center;
+    background-color: #f3dbc3;
+    align-items: center;
+    box-shadow: 0px 2px 2px #999;
+    position: sticky;
+    top: 0;
+    z-index: 1;
+}
+.logo{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin: 10px 0px;
+    padding: 4px 4px;
+    width: 310px;
+    background-color: #35d8e1;
+    border-radius: 32px;
+}
+.logo a img{
+    margin: 0px 5px;
+}
+.logo p{
+    margin: 0px 5px;
+    font-size: 32px;
+    font-weight: 500;
+    font-family: 'Alegreya', serif;
+    color: #ffffff;
+    line-height: 1;
+}
+.logo a img{
+    width: 40px;
+}
+.nav{
+    margin: 10px 80px;
+}
+nav ul{
+    display: flex;
+    list-style: none;
+}
+nav ul li{
+    margin: 0px 20px;
+}
+nav ul li a{
+    text-decoration: none;
+    color: #000;
+    font-size: 26px;
+    font-family: 'Merienda', cursive;
+}
+/*
+.redes{
+    display: flex;
+    width: 350px;
+    height: 70px;
+    padding-top: 2px;
+    align-items: center;
+    justify-content: center;
+}
+.redes a img{
+    width: 50px;    
+    margin: 0px 5px;
+    align-self: center;
+    line-height: 1;
+}*/
+
+.portal{
+    min-width: 310px;
+    margin: 10px 0px;
+}
+.portal ul{
+    display: flex;
+    list-style: none;
+    justify-content: right;
+    align-items: center;
+}
+.portal ul li{
+    margin: 0px 20px 0px 20px;
+}
+.portal ul li a{
+    text-decoration: none;
+    color: #000;
+    font-size: 22px;
+    font-family: 'Merienda', cursive;
+}
+.btn-ingresar{
+    width: 120px;
+    text-align: left;
+}
+li i{
+    margin: 0px 8px;
+    font-size: 22px;
+}
+.li-carrito{
+    height: 36px;
+}
+.portal a img{
+    width: 32px;
+}
+
+.hoverHeader:hover > a{
+    border-bottom: 4px solid #000;
+}
+.li-carrito:hover{
+    border-bottom: 4px solid #000;
+}
+
+
+/*
+SECTION SLIDE
+*/
+
+/* .container_slide{
+    width: 100%;
+    height: 880px;
+    margin: 60px 0px;
+    background-color: #666;    
+} */
+
+.portada{
+    background-image: linear-gradient(to right top, #e8c39e, #ffffff);
+    /* background-color: #ffffff; */
+    box-shadow: 0px 2px 2px #999;
+    display: flex;
+    justify-content: center;  
+}
+.portada-container{
+    width: 1420px;
+    margin: 40px 35px;    
+    padding: 35px 25px 35px 25px;
+    background-color: #35d8e1;
+    border-radius: 12px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: center;
+}
+.portada-texto{
+    min-width: 328px;
+    max-width: 525px;
+    margin-bottom: 20px;
+    /* background-color:aqua; */
+    padding: 25px;
+    text-align: center;
+    box-sizing: content-box;
+}
+#titulo-portada{    
+    width: 100%;
+    font-size: 60px;
+    margin-bottom: 25px;
+    color: #000;
+    font-weight: 600;
+    font-family: 'Merienda', cursive;
+}
+#texto-portada{
+    font-size: 21px;
+    letter-spacing: 0.9px;
+    color: #000 ;
+    font-weight: 600;
+    font-family: "Montserrat", sans-serif;
+}
+.btn-portada{
+    width: 150px;
+    height: 45px;
+    margin-top: 40px;
+    font-size: 23px;
+    color: #fff;
+    font-weight: 600;
+    font-family: "Montserrat", sans-serif;
+    background-color: #fc8800;
+    border: 0px;
+    border-radius: 6px;
+}
+.btn-portada:hover{
+    background-color: #f08103;
+    cursor: pointer;
+}
+.portada-imagen{
+    min-width: 328px;
+    max-width: 722px;
+}
+.portada-imagen img{
+    width: 100%;
+    object-fit: contain;
+    border-radius: 16px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* FINAL */
+
+.final{
+    position: relative;
+    top: 3890px;
+    width: 50px;
+    height: 50px;
+    margin: 50px auto;
+    padding: 10px;
+    background-color: red;
+    text-align: center;
+    font-size: 30px;
+}

@@ -47,31 +47,36 @@ header{
 .logo{
     display: flex;
     align-items: center;
-    justify-content: space-evenly;
-    margin: 10px 0px;
-    padding: 4px 4px;
+    justify-content: center;
+    margin: 5px 0px;
+    padding: 6px 4px;
     width: 310px;
     background-color: var(--color-azulInter);
     border-radius: 32px;
 }
 .logo a img{
-    margin: 0px 5px;
+    width: 40px;
 }
-.logo p{
-    margin: 0px 5px;
+.logo a{
+    text-decoration: none;
+    margin: 0px 1px;
     font-size: 32px;
     font-weight: 500;
     font-family: 'Alegreya', serif;
-    color: #ffffff;
+    color: #fff;
     line-height: 1;
 }
-.logo a img{
-    width: 40px;
+.logo:hover>a{
+    color: #fff;
 }
+
 .nav{
     margin: 10px 80px;
+    padding: 0px;
 }
 nav ul{
+    margin: 0px;
+    padding: 0px;
     display: flex;
     list-style: none;
 }
@@ -114,7 +119,11 @@ nav ul li a{
     align-items: center;
 }
 .portal ul li{
-    margin: 0px 6px;
+    padding: 1px;
+    margin: 0px 4px;
+}
+.portal ul li i{
+    margin: 0px 8px;
 }
 .portal ul li a{
     padding: 0px 8px;
@@ -127,16 +136,9 @@ nav ul li a{
     width: 120px;
     text-align: left;
 }
-li i{
-    margin: 0px 8px;
-    font-size: 22px;
-}
 .li-carrito{
     height: 36px;
     font-size: 22px;
-}
-.li-carrito a{
-    padding: 0px 8px
 }
 .portal a img{
     width: 32px;
